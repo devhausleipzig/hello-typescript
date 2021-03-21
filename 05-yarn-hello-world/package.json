@@ -1,0 +1,17 @@
+{
+  "name": "yarn-hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "figlet": "^1.5.0",
+    "node-banner": "^1.4.0",
+    "sudoku-solver-js": "^0.1.4",
+    "yeoman-character": "^1.1.0"
+  }
+}
